@@ -1,43 +1,101 @@
-nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color:darkgreen;
-  }
-  .logo {
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    font-size: 25px;
-  }
-  
-  .link-tree{
-    position:absolute;
-    margin:100px;
-    left:20%;
-    right:20%;
-    top:20%;
-    bottom:24%;
+body {
+  background: linear-gradient(-45deg, #42b5d6, #5d2696, #276387);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  letter-spacing: 3px;
 }
-  
-  .link-tree a {
-    letter-spacing: 7px;
-    font-weight: bold;
-    font-size: 20px;
-    text-decoration: none;
-    color:black;
-    display:flex;
-    padding: 20px;
-    background-color:darkred;
-  }
 
-  .link-tree div {
-      padding:20px;
-   
-  }
+.logo {
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
 
-  .banner{
-    background: url("/img/1500x500.jfif") no-repeat
-    center;
-    background-size:100% auto;
-  }
-  
+.container {
+  background: url(/img/1500x500.jfif) no-repeat center;
+  height: 400px;
+  width: 100%;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  opacity: 0.8;
+  background-size: cover;
+}
+
+.banner-picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  height: auto;
+  max-width: 600px;
+  border-radius: 5%;
+}
+
+.links {
+  text-align: center;
+  margin-top: 40px;
+  border: 1px solid #29aeaa;
+  border-width: 2px;
+  padding: 10px;
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 40px;
+  font-size: 15px;
+  margin-bottom: 50px;
+  background-color: #7500f0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  transition: color 5s;
+  font-weight: bold;
+}
+
+a:hover {
+  color: black;
+  font-weight: bold;
+  background-color: #fff;
+  border-radius: 5%;
+}
+
+.button {
+  display: inline-flex;
+  height: 50px;
+  padding: 0;
+  background: #7500f0;
+  border: none;
+  outline: none;
+  border-radius: 5%;
+  overflow: hidden;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #fff;
+  color: black;
+}
+.button:active {
+  background: #42b5d6;
+}
+
+.button__text {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 24px;
+  color: white;
+  height: 100%;
+}
+.button__icon {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 24px;
+  color: white;
+  height: 100%;
+}
