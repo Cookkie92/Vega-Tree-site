@@ -23,16 +23,6 @@ body {
   background-size: cover;
 }
 
-.banner-picture {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5%;
-  height: auto;
-  max-width: 600px;
-  border-radius: 5%;
-}
-
 .links {
   text-align: center;
   margin-top: 40px;
@@ -64,13 +54,18 @@ a:hover {
 }
 
 .button {
+  margin-top: 40px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
   display: inline-flex;
   height: 50px;
   padding: 0;
   background: #7500f0;
   border: none;
   outline: none;
-  border-radius: 5%;
+  border-radius: 40px;
   overflow: hidden;
   font-size: 16px;
   font-weight: 500;
@@ -88,14 +83,14 @@ a:hover {
 .button__text {
   display: inline-flex;
   align-items: center;
-  padding: 0 24px;
+  padding: 0 30px;
   color: white;
   height: 100%;
 }
 .button__icon {
   display: inline-flex;
   align-items: center;
-  padding: 0 24px;
+  padding: 0 30px;
   color: white;
   height: 100%;
 }
